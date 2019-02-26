@@ -1,0 +1,4 @@
+com/example/phonebook/model/Phonebook.class
+com/example/phonebook/repository/PhonebookRepository.class
+com/example/phonebook/controller/PhonebookController.class
+com/example/phonebook/PhonebookApplication.class
