@@ -5,12 +5,14 @@ import com.example.countrycodes.model.Entry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
 
 @RestController
 @RequestMapping()
+@ResponseStatus(HttpStatus.OK)
 public class CountryCodesController {
 
     @Autowired
@@ -19,6 +21,7 @@ public class CountryCodesController {
     private Logger log = LoggerFactory.getLogger(CountryCodesController.class);
 
     @GetMapping
+    @ResponseStatus(HttpStatus.OK)
     public Iterable<Entry> getAll() {
         return entryRepository.findAll();
     }
@@ -36,6 +39,7 @@ public class CountryCodesController {
     }
 
     @PostMapping()
+    @ResponseStatus(HttpStatus.CREATED)
     public Optional<Entry> add(@RequestBody Optional<Entry> entry) {
         log.info("Adding: " + entry);
         if (!entry.isPresent()) {
@@ -74,5 +78,4 @@ public class CountryCodesController {
             log.info("Unable to delete: " + country);
         }
     }
-
 }
