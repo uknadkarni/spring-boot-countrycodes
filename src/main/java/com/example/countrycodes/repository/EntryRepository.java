@@ -1,4 +1,4 @@
-package com.example.countrycodes.com.example.countrycodes.com.example.countrycodes.repository;
+package com.example.countrycodes.repository;
 
 import com.example.countrycodes.model.Entry;
 import org.springframework.data.repository.CrudRepository;

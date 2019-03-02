@@ -1,4 +1,4 @@
+com/example/countrycodes/controller/CountryCodesController.class
 com/example/countrycodes/model/Entry.class
-com/example/countrycodes/com/example/countrycodes/com/example/countrycodes/repository/EntryRepository.class
+com/example/countrycodes/repository/EntryRepository.class
 com/example/countrycodes/CountryCodesApplication.class
-com/example/countrycodes/com/example/countrycodes/controller/CountryCodesController.class

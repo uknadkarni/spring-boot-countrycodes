@@ -1,6 +1,6 @@
-package com.example.countrycodes.com.example.countrycodes.controller;
+package com.example.countrycodes.controller;
 
-import com.example.countrycodes.com.example.countrycodes.com.example.countrycodes.repository.EntryRepository;
+import com.example.countrycodes.repository.EntryRepository;
 import com.example.countrycodes.model.Entry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
