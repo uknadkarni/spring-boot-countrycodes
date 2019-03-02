@@ -1,4 +1,4 @@
-/Users/ut/workspace/spring-boot-phonebook/src/main/java/com/example/phonebook/model/Phonebook.java
-/Users/ut/workspace/spring-boot-phonebook/src/main/java/com/example/phonebook/controller/PhonebookController.java
-/Users/ut/workspace/spring-boot-phonebook/src/main/java/com/example/phonebook/repository/PhonebookRepository.java
-/Users/ut/workspace/spring-boot-phonebook/src/main/java/com/example/phonebook/PhonebookApplication.java
+/Users/ut/workspace/spring-boot-phonebook/src/main/java/com/example/countrycodes/com/example/countrycodes/com/example/countrycodes/repository/EntryRepository.java
+/Users/ut/workspace/spring-boot-phonebook/src/main/java/com/example/countrycodes/model/Entry.java
+/Users/ut/workspace/spring-boot-phonebook/src/main/java/com/example/countrycodes/CountryCodesApplication.java
+/Users/ut/workspace/spring-boot-phonebook/src/main/java/com/example/countrycodes/com/example/countrycodes/controller/CountryCodesController.java

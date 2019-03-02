@@ -1,4 +1,4 @@
-package com.example.phonebook;
+package com.example.countrycodes;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
